@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: shipment-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/shipment_db
+    username: root
+    password: admin123
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+server:
+  port: 8081
